@@ -1,0 +1,96 @@
+.photos{
+  width: 640px;
+  height: 581px;
+}
+
+.blocs{
+ display: grid;
+ grid-template-columns: 50% 50%;
+ height: 580px;
+
+}
+
+.bloc1{
+    background-color: linear-gradient(#A200B7, #42006C);
+}
+
+.bloc1 h1{
+  color: whitesmoke;
+  margin-top: 250px;
+ margin-left: 100px;
+ 
+}
+
+
+.bloc1 p{
+   color: whitesmoke;
+   margin-left: 100px;
+   text-shadow: #3c009d;
+   text-transform: uppercase;
+   font-size: 20px;
+  }
+
+
+
+.bloc1 button{
+    background-color: #ceb8f3;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid  #3c009d;
+    cursor: pointer;
+    margin-left: 100px;
+}
+
+
+
+.parent{
+  display: flex;
+  justify-content: center;
+  gap: 500px;
+  margin-top: 30px;
+}
+
+.navbar ul{
+
+ display: flex;
+gap: 40px;
+
+ 
+}
+
+nav ul li {
+  list-style: none;
+
+
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 20px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  color: red;
+  font-size: 20px;
+}
+
+.logo{
+  color: whitesmoke;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  margin-left: 30px;
+  padding: 10px;
+}
+.logo a{
+  text-decoration: none;
+  color: whitesmoke
+ 
+}
+
+
+/* ------------------------------------- */
+
