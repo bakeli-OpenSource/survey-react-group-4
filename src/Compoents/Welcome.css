@@ -1,32 +1,41 @@
 .photos{
-  width: 640px;
-  height: 581px;
+  width: 630px;
+  height: 531px;
+  position: relative;
+  right: 20px;
+  margin-bottom: 70px;
+}
+.blocs{
+  background: linear-gradient(#A200B7, #42006C);
+  height: 582px;
+  margin-bottom: 100px;
 }
 
-.blocs{
+.bolocs{
  display: grid;
  grid-template-columns: 50% 50%;
  height: 580px;
+  background-color: linear-gradient(#A200B7, #42006C);
 
 }
 
-.bloc1{
-    background-color: linear-gradient(#A200B7, #42006C);
-}
+
 
 .bloc1 h1{
   color: whitesmoke;
-  margin-top: 250px;
- margin-left: 100px;
+  margin-top: 100px;
+   margin-left: 177px;
+   font-size: 50px;
  
 }
 
 
 .bloc1 p{
    color: whitesmoke;
-   margin-left: 100px;
+   margin-left: 177px;
+   margin-top: 20px;
    text-shadow: #3c009d;
-   text-transform: uppercase;
+   
    font-size: 20px;
   }
 
@@ -34,12 +43,13 @@
 
 .bloc1 button{
     background-color: #ceb8f3;
-    width: 150px;
-    height: 40px;
+    width: 170px;
+    margin-top: 30px;
+    height: 50px;
     border-radius: 10px;
     border: 1px solid  #3c009d;
     cursor: pointer;
-    margin-left: 100px;
+    margin-left: 177px;
 }
 
 
@@ -48,7 +58,7 @@
   display: flex;
   justify-content: center;
   gap: 500px;
-  margin-top: 30px;
+  background: linear-gradient(#A200B7, #42006C);
 }
 
 .navbar ul{
@@ -75,22 +85,87 @@ nav ul li a:hover {
   text-decoration: underline;
   color: red;
   font-size: 20px;
+  color: #ceb8f3;
 }
 
 .logo{
   color: whitesmoke;
   border-bottom: 1px solid black;
   border-top: 1px solid black;
-  border-left: 1px solid black;
+  border-left: 1px solid whitesmoke;
   margin-left: 30px;
   padding: 10px;
+  font-size: 20px;
 }
 .logo a{
   text-decoration: none;
-  color: whitesmoke
  
+ 
+}
+@media only screen and (max-width: 600px) {
+  .parent{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    background: linear-gradient(#A200B7, #42006C);
+    width: 100%;
+  }
+
+  body{
+    width: 100%;
+    
+  }
+
+  .navbar ul {
+      display: block;
+      gap: 10px;
+      
+  }
+
+  .bolocs{
+    display: block;
+  
+     background-color: linear-gradient(#A200B7, #42006C);
+   
+   }
+
+
+   .bloc1 h1{
+    color: whitesmoke;
+    margin-top: 100px;
+     margin-left: 37px;
+   
+  }
+  
+  
+  .bloc1 p{
+     color: whitesmoke;
+     margin-left: 37px;
+     margin-top: 20px;
+     text-shadow: #3c009d;
+     text-transform: uppercase;
+     font-size: 20px;
+    }
+  
+  
+  
+  .bloc1 button{
+     
+      margin-left: 37px;
+  }
+
+
+  .blocs{
+    background:  linear-gradient(#A200B7, #42006C);
+    height: 841px;
+    width: 100%;
+    margin-bottom: 100px;
+  }
+  .photos{
+  display: none;
+  }
 }
 
 
-/* ------------------------------------- */
+
 

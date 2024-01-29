@@ -3,11 +3,16 @@ import LoginSignup from '../LoginSignup/LoginSignup'
 import { useNavigate } from 'react-router-dom'
 import head from '../Assets/head.png'
 import users from '../Assets/users.png'
+import head1 from '../Assets/users.png'
+import part from '../Assets/part.png'
 import './Welcome.css'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import Footers from '../pages/Footers'
+import About from '../pages/About'
+
 
 
 
@@ -16,11 +21,11 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 export default function Welcome() {
     const navigate = useNavigate()
   return (
-   <div className='blo'>
+   <div className='blocs'>
 
      <div className='parent'>
 
-      <div className='logo'>My sondage</div>
+      <div className='logo'>RxDForm</div>
 
       <div>
     <nav className='navbar'>
@@ -34,25 +39,33 @@ export default function Welcome() {
 
     </div>
 
+    <div className='bolocs'>
      <div className='bloc1'>
 
        <h1>Hey, I'm a sample <br /> Sondage app</h1>
-       <p>crate a count to b crate <br /> a form-sondage</p>
+       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo commodi eveniet, et ab eos aspernatur.Illo commodi eveniet, et ab eos aspernatur.</p>
         <button onClick={()=> navigate('signe')}> Se connerter</button>
     </div>
     <div className='bloc2'>
-         {/* <img src={head} className='photos' alt="" /> */}
+      
+         <img src={part} className='photos' alt="" />
    </div> 
-     
+
+   </div>
+   <About />
+   <Footers />
+    </div>
   
 
 
+    
 
-   
-    </div>
 
 
 
 
   )
+
+ 
 }
+
