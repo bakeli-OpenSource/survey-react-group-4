@@ -24,13 +24,11 @@
 
 .logo2{
         color: whitesmoke;
-       
         border-left: 2px solid whitesmoke;
         width: 10px;
-       
-      padding-left: 5px;
-        font-size: 20px;
-        margin-left: 160px;
+        padding-left: 5px;
+        font-size: 30px;
+        margin-left: 140px;
       }
 
 
@@ -59,10 +57,12 @@ body{
 .underline{
     width: 61px;
     min-height: 6px;
-    background: #3c009d;
+    background: whitesmoke;
     border-radius: 9px;
     margin-right: 30px;
-    
+    position: relative;
+    bottom: 10px;
+   
 }
 
 .inputs{
@@ -88,9 +88,8 @@ body{
     height: 50px;
     width: 350px;
     background: #eaeaea;
-   border: 1px solid #42006C;
-   padding: 10px;
-  
+    border: 1px solid #ceb8f3;;
+    padding: 10px; 
     outline: none;
     color: #797979;
  
@@ -114,35 +113,36 @@ body{
 }
 
 .submit{
-    border: 1px solid #ceb8f3;
+    border: 1px solid whitesmoke;
     border-radius: 25px;
      background-color: #ceb8f3;
-     width: 140px;
-     height: 50px;
+     width: 340px;
+     height: 20px;
      border-radius: 25px;
      padding: 10px;
-     padding-left: 30px;
+     padding-left: 95px;
+     padding-bottom: 50px;
      color: whitesmoke;
-     margin-left: 40px;
+     margin-left: 45px;
      cursor: pointer;
-     font-size: 20px;
+     font-size: 30px;
      font-weight: 700;
 }
 
 
 .submit2{
-    border: 1px solid #ceb8f3;
-    
-     background-color: #ceb8f3;
-     width: 140px;
+     border: 1px solid whitesmoke;
+     background-color:#ceb8f3;
+     width: 340px;
      height: 50px;
      border-radius: 25px;
-     padding: 10px;
-     padding-left: 40px;
+     padding-left: 120px;
      color: whitesmoke;
      margin-left: 45px;
+     position: relative;
      cursor: pointer;
-     font-size: 20px;
+     bottom: 70px;
+     font-size: 30px;
      font-weight: 700;
 
 }
@@ -169,6 +169,49 @@ body{
         display: block;
         text-align: center;
     }
+}
+.signup-link{
+   position: relative;
+   border-radius: 25px;
+   bottom: 40px;
+   left: 150px;
+   color: black;
+   border: 1px solid #ceb8f3;
+   background-color: whitesmoke;
+   width: 130px;
+   height: 50px;
+   padding-left: 24px;
+   padding-top: 10px;
+   font-size: 20px;
+}
+
+.signup-link:hover{
+
+    color: whitesmoke;
+   border: 1px solid #ceb8f3;
+   background:linear-gradient(#A200B7, #42006C);
+}
+
+.submit:hover{
+
+    color: whitesmoke;
+   border: 1px solid #ceb8f3;
+   background:linear-gradient(#A200B7, #42006C);
+}
+
+.submit2:hover{
+
+    color: whitesmoke;
+   border: 1px solid #ceb8f3;
+   background:linear-gradient(#A200B7, #42006C);
+}
+
+
+.textes{
+    color: whitesmoke;
+    position: relative;
+    bottom: 50px;
+    left: 60px;
 }
 
 

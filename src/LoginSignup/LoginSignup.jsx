@@ -5,11 +5,16 @@ import email from '../Assets/e-mail.png'
 import password from '../Assets/password.png'
 import head from '../Assets/head.png'
 import Welcome from '../Compoents/Welcome'
+import axios from 'axios'
 
  
   
  
 export default function LoginSignup() {
+
+
+  
+  
 
   const [action,setAction] = useState("Sign Up");
   return (
@@ -47,6 +52,10 @@ export default function LoginSignup() {
 
 <div className="submit-container">
   <div className={action== "Login"?"submit gray":"submit"} onClick={()=>{setAction("Sign Up")}}>Sign Up</div>
+  {/* <div className={action === "Login" ? "submit2 gray" : "submit2"} onClick={handleLogin}>Login</div>
+
+  <div className={action === "Sign Up" ? "submit gray" : "submit"} onClick={handleSignup}>Sign Up</div> */}
+
   <div className={action== "Sign Up"?"submit2 gray":"submit2"} onClick={()=>{setAction("Login")}}>Login</div>
 </div>
 

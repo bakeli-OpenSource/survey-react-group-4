@@ -5,6 +5,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import LoginSignup from './LoginSignup/LoginSignup';
 import Welcome from './Compoents/Welcome';
 import Footers from './pages/Footers';
+import Login from './LoginSignup/Login';
+import Signup from './LoginSignup/Signup';
 
 
 const App = () => {
@@ -15,7 +17,8 @@ const App = () => {
         
       <Routes>
         <Route path="/" element={< Welcome />} />
-        <Route path="signe" element={< LoginSignup />} />
+        <Route path="signe" element={< Login />} />
+        <Route path="signes" element={< Signup />} />
         {/* <Route path="signes" element={< Footers />} /> */}
         
       </Routes>
