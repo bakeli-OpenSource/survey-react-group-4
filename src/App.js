@@ -7,6 +7,7 @@ import Welcome from './Compoents/Welcome';
 import Footers from './pages/Footers';
 import Login from './LoginSignup/Login';
 import Signup from './LoginSignup/Signup';
+import Dashbord from './Dashbord'
 
 
 const App = () => {
@@ -17,8 +18,9 @@ const App = () => {
         
       <Routes>
         <Route path="/" element={< Welcome />} />
-        <Route path="signe" element={< Login />} />
-        <Route path="signes" element={< Signup />} />
+        <Route path="Login" element={< Login />} />
+        <Route path="Signup" element={< Signup />} />
+        <Route path="Dashbord" element={< Dashbord />} />
         {/* <Route path="signes" element={< Footers />} /> */}
         
       </Routes>

@@ -15,6 +15,7 @@ export default function Login() {
         password: formData.password
       });
       console.log(response.data);
+      window.location.href = '/Dashbord';
       // Traitez la réponse de l'API ici (redirection, affichage de messages, etc.)
     } catch (error) {
       console.error(error.response.data);
@@ -53,7 +54,7 @@ export default function Login() {
       </div>
 
       <p className='textes'>If you don't have an account, please register</p>
-        <Link to="/signes" className="signup-link">Sign Up</Link>
+        <Link to="/Signup" className="signup-link">Sign Up</Link>
     </div>
   );
 }

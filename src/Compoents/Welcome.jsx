@@ -44,7 +44,7 @@ export default function Welcome() {
 
        <h1>Hey, I'm a sample <br /> Sondage app</h1>
        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo commodi eveniet, et ab eos aspernatur.Illo commodi eveniet, et ab eos aspernatur.</p>
-        <button onClick={()=> navigate('signe')}> Se connerter</button>
+        <button onClick={()=> navigate('Login')}> Se connerter</button>
     </div>
     <div className='bloc2'>
       
