@@ -15,7 +15,7 @@ export default function Login() {
         password: formData.password
       });
       console.log(response.data);
-      window.location.href = '/Dashbord';
+      window.location.href = '/Dashboard';
       // Traitez la réponse de l'API ici (redirection, affichage de messages, etc.)
     } catch (error) {
       console.error(error.response.data);
