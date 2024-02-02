@@ -49,7 +49,7 @@ function Dashboard() {
 
                         {/*  <!-- Nav Item - Dashboard --> */}
                         <li className="nav-item active">
-                            <a className="nav-link" href="index.html">
+                            <a className="nav-link" href="#">
                                 <i className="fas fa-fw fa-tachometer-alt"></i>
                                 <span>Dashboard</span></a>
                         </li>

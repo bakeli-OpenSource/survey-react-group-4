@@ -7,7 +7,7 @@ import Welcome from './Compoents/Welcome';
 import Footers from './pages/Footers';
 import Login from './LoginSignup/Login';
 import Signup from './LoginSignup/Signup';
-import Dashboard from './Dashbord'
+import Dashboard from './Dashboard'
 
 
 const App = () => {
