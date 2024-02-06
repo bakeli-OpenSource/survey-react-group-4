@@ -34,3 +34,19 @@
     width: 0!important;
     overflow: hidden;
 }
+
+/* .sidebard{
+    background: linear-gradient(#d29dd991, #aa7fc5)!important;
+    width: 200px;
+   
+
+} */
+
+/* #page-top {
+    background: linear-gradient(#d29dd991, #aa7fc5)!important;
+} */
+
+.navbar-nav  {
+    background: linear-gradient(#d29dd991, #d29dd991)!important;
+
+}

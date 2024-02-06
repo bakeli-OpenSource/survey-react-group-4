@@ -145,8 +145,8 @@ function Dashboard() {
                                 <div className="d-sm-flex align-items-center justify-content-between mb-4">
                                     <h1 className="h3 mb-0 ">Tableaux de Bord</h1>
                 
-                                    <Link to="/sondage" className="btn btn-primary">
-                                     <i className="fa-solid fa-plus m-2 fw-bold"></i> Créer un sondage
+                                    <Link to="/sondage" className="btn btn-primary ">
+                                     <i className="fa-solid fa-plus m-2 fw-bold "></i> Créer un sondage
                                     </Link>
                                      
                                 </div>
