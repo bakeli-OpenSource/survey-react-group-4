@@ -8,7 +8,6 @@ import Footers from './pages/Footers';
 import Login from './LoginSignup/Login';
 import Signup from './LoginSignup/Signup';
 import Formulaire from './sondage/Formulaire';
-// import { Form } from 'react-hook-form';
 import Dashboard from './Dashboard';
 
 
