@@ -9,10 +9,12 @@ export default function Formulaire() {
 const {
     register,
     handleSubmit,
+    reset,
     formState: { errors },
   } = useForm();
   const onSubmit = (data) => console.log(data);
   console.log(errors);
+  
 
 
   const [ prenom, setPrenom] = useState('');
@@ -28,6 +30,7 @@ const {
     axios.post('http://localhost:8000/api/form', data)
       .then(response => {
         console.log(response.data);
+        reset(); 
       })
       .catch(error => {
         console.error(error.response.data);
