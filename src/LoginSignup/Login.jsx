@@ -52,10 +52,9 @@ export default function Login() {
         {/* Lien ou bouton pour naviguer vers la page d'inscription */}
         
       </div>
-       <div className='signup-links'>
-      <p className='textes'>If you don't have an account ?</p>
+
+      <p className='textes'>If you don't have an account, please register</p>
         <Link to="/Signup" className="signup-link">Sign Up</Link>
-        </div>
     </div>
   );
 }

@@ -10,7 +10,7 @@
 .container{
     display: flex;
     flex-direction: column;
-    background: #3983ad;
+    background: linear-gradient(#A200B7, #42006C);
     width: 450px;
     height: 570px;
     justify-content: center;
@@ -27,7 +27,7 @@
 }
 .container1{
 
-    background: #3983ad!important;
+    background: linear-gradient(#d29dd991, #aa7fc5);
     width: 50%;
     padding: 5px;
     justify-content: center;
@@ -52,14 +52,11 @@ select,textarea{
 
 .logo2{
         color: whitesmoke;
-        border-left: 1px solid whitesmoke;
-        border-top: 2px solid whitesmoke;
-        border-bottom: 2px solid whitesmoke;
-        width: 30px;
+        border-left: 2px solid whitesmoke;
+        width: 10px;
         padding-left: 5px;
         font-size: 30px;
-        margin-left: 120px;
-        margin-top: 30px;
+        margin-left: 10px;
       }
 
 
@@ -122,8 +119,6 @@ body{
     padding: 10px; 
     outline: none;
     color: #797979;
- 
-
     font-weight: 300;
     border-radius: 25px;
     font-size: 1em;
@@ -144,16 +139,16 @@ body{
 
 .submit{
     border: 1px solid whitesmoke;
-     background-color:#3983ad;
-     border-radius: 25px;
+    border-radius: 25px;
+     background-color: #ceb8f3;
      width: 340px;
      height: 50px;
      border-radius: 25px;
-     padding: 5px;
+     padding: 10px;
      padding-left: 95px;
      padding-bottom: 50px;
      color: whitesmoke;
-     margin-left: 35px;
+     margin-left: 45px;
      cursor: pointer;
      font-size: 30px;
      font-weight: 700;
@@ -162,14 +157,13 @@ body{
 
 .submit2{
      border: 1px solid whitesmoke;
-     background-color:#3983ad;
+     background-color:#ceb8f3;
      width: 340px;
      height: 50px;
      border-radius: 25px;
      padding-left: 120px;
      color: whitesmoke;
-     margin-left: 30px;
-     margin-bottom: 30px;
+     margin-left: 45px;
      position: relative;
      cursor: pointer;
      bottom: 70px;
@@ -177,81 +171,11 @@ body{
      font-weight: 700;
 
 }
-
-.submit:hover{
-
-    color: #3983ad;
-   border: 1px solid #3983ad;;
-   background:whitesmoke;
+.gray{
+    background: gray;
+    color: antiquewhite;
+    border: 1px solid gray;
 }
-
-.submit2:hover{
-
-    color: #3983ad;
-   border: 1px solid #3983ad;;
-   background:whitesmoke;
-}
-
-
-.signup-links{
-    display: flex;
-    color: whitesmoke;
-    gap: 10px;
-   position: relative;
-   bottom: 80px;
-   left: 50px;
-}
-
-.signup-link{
-    
-    text-decoration: underline; 
- }
-
- .signup-link:hover{
- 
-    color: whitesmoke;
-    border: 1px solid #3983ad;
-    border-radius: 5px;
-    padding: 7px;
-    color: #3983ad;
-    background-color: whitesmoke;
-  
-}
-
-.login-link:hover{
- 
-    color: whitesmoke;
-    border: 1px solid #3983ad;
-    border-radius: 5px;
-    padding: 7px;
-    color: #3983ad;
-    background-color: whitesmoke;
-  
-}
-
-.login-link{
-    text-decoration: underline;
-   
-}
-
-
-.login-links{
-    display: flex;
-    color: whitesmoke;
-    gap: 10px;
-    margin-top: 20px;
-    margin-left: 100px;
-}
-
-
- 
-
-
-
-
-
-
-
 
 
 
@@ -271,5 +195,50 @@ body{
         text-align: center;
     }
 }
+.signup-link{
+   position: relative;
+   border-radius: 25px;
+   bottom: 40px;
+   left: 150px;
+   color: black;
+   border: 1px solid #ceb8f3;
+   background-color: whitesmoke;
+   width: 130px;
+   height: 50px;
+   padding-left: 24px;
+   padding-top: 10px;
+   font-size: 20px;
+}
+
+.signup-link:hover{
+
+    color: whitesmoke;
+   border: 1px solid #ceb8f3;
+   background:linear-gradient(#A200B7, #42006C);
+}
+
+.submit:hover{
+
+    color: whitesmoke;
+   border: 1px solid #ceb8f3;
+   background:linear-gradient(#A200B7, #42006C);
+}
+
+.submit2:hover{
+
+    color: whitesmoke;
+   border: 1px solid #ceb8f3;
+   background:linear-gradient(#A200B7, #42006C);
+}
+
+
+.textes{
+    color: whitesmoke;
+    position: relative;
+    bottom: 50px;
+    left: 60px;
+}
+
+
 
 

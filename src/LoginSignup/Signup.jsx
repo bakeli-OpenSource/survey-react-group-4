@@ -71,10 +71,6 @@ export default function Register() {
       <div className="submit-container">
         <div className="submit" onClick={handleSignup}>Sign Up</div>
       </div>
-       <div className='login-links'>
-       <p className='login-link-p'> you have a count: </p>
-      <Link to="/Login" className="login-link">LOGIN</Link>
-      </div>
     </div>
   );
 }

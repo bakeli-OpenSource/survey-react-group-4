@@ -33,6 +33,32 @@
 .toggled1 {
     width: 0!important;
     overflow: hidden;
+    
+}
+
+.logos {
+    color: whitesmoke;
+    border-bottom: 2px solid whitesmoke;
+    border-top: 2px solid whitesmoke;
+    border-left: 1px solid whitesmoke;
+    padding: 3px;
+    font-size: 15px;
+    position: relative;
+    right: 70px;
+    width: 20px;
+}
+
+.navbar-nav{
+    background-color:  #3a83ac;
+}
+
+.user{
+    background-color: white !important;
+    
+}
+.btn2{
+    background-color: #3a83ac;
+    color: whitesmoke;
 }
 
 

@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 import React from "react";
 import { useForm } from "react-hook-form";
 import { PhotoIcon, UserCircleIcon } from "@heroicons/react/24/solid";
@@ -49,7 +48,7 @@ export default function Formulaire() {
               <div className="sm:col-span-3">
                 <label
                   htmlFor="last-name"
-                  className="block text-sm font-medium leading- text-white">
+                  className="block text-sm font-medium leading-6 text-gray-900">
                   Nom
                 </label>
                 <div className="mt-2">
@@ -178,4 +177,4 @@ export default function Formulaire() {
     </form>
   );
 }
->>>>>>> 4f599a7841bee7884dc97b2cc29fa4c8b8883468
+

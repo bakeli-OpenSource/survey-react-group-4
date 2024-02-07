@@ -6,7 +6,7 @@
   margin-bottom: 70px;
 }
 .blocs{
-  background: #3983ad;
+  background: linear-gradient(#A200B7, #42006C);
   height: 582px;
   margin-bottom: 100px;
 }
@@ -15,7 +15,7 @@
  display: grid;
  grid-template-columns: 50% 50%;
  height: 580px;
-  background-color:#3983ad;
+  background-color: linear-gradient(#A200B7, #42006C);
 
 }
 
@@ -42,22 +42,14 @@
 
 
 .bloc1 button{
-    background-color: whitesmoke;
-    color: #3983ad;
-    width: 180px;
+    background-color: #ceb8f3;
+    width: 170px;
     margin-top: 30px;
     height: 60px;
     border-radius: 10px;
-    border: 1px solid  #3983ad;
+    border: 1px solid  #3c009d;
     cursor: pointer;
     margin-left: 177px;
-}
-
-.bloc1 button:hover{
-  background-color:#3983ad;
-  color: whitesmoke;
-  border:  1px solid whitesmoke;
- 
 }
 
 
@@ -66,14 +58,13 @@
   display: flex;
   justify-content: center;
   gap: 500px;
-  background-color: #3983ad;
+  background: linear-gradient(#A200B7, #42006C);
 }
 
 .navbar ul{
 
  display: flex;
- gap: 40px;
- margin-top: 40px;
+gap: 40px;
 
  
 }
@@ -103,10 +94,8 @@ nav ul li a:hover {
   border-top: 2px solid whitesmoke;
   border-left: 1px solid whitesmoke;
   margin-left: 30px;
-  width: 20px;
   padding: 10px;
-  font-size: 30px;
-  margin-top: 30px;
+  font-size: 20px;
 }
 .logo a{
   text-decoration: none;
@@ -163,6 +152,7 @@ nav ul li a:hover {
   .bloc1 button{
      
       margin-left: 37px;
+      background-color: #A200B7;
   }
 
 
