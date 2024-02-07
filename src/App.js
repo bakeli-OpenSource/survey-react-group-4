@@ -9,6 +9,8 @@ import Login from './LoginSignup/Login';
 import Signup from './LoginSignup/Signup';
 import Formulaire from './sondage/Formulaire';
 import { Form } from 'react-hook-form';
+import Dashboard from './Dashboard';
+
 
 
 const App = () => {
@@ -19,18 +21,15 @@ const App = () => {
         
       <Routes>
         <Route path="/" element={< Welcome />} />
-<<<<<<< HEAD
-        <Route path="signe" element={< Login />} />
-        <Route path="signes" element={< Signup />} />
-        <Route path="sondage" element={< Formulaire />} />
-        {/* <Route path="signes" element={< Footers />} /> */}
-=======
+
+
         <Route path="Login" element={< Login />} />
         <Route path="Signup" element={< Signup />} />
         <Route path="signes" element={< Footers />} /> 
         <Route path="Dashboard" element={<Dashboard/>} />
+        <Route path="sondage" element={<Formulaire/>} />
 
->>>>>>> 131e75fdb27bfe766dfe397ef066e85b013d5c94
+
         
       </Routes>
     </Router>

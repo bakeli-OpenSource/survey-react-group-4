@@ -20,10 +20,10 @@ export default function Formulaire() {
       <div className="container1 justify-center px-5">
         <div className="space-y-12 ">
           <div className="border-b border-gray-900/10 pb-12 mt-2">
-            <h1 className="text-base text-center fw-bold  leading-9 text-gray-900">
+            <h1 className="text-base text-center fw-bold  leading-9 text-white">
               Sondage sur l'élection presidentielle de 2024
             </h1>
-            <p className="mt-1 text-sm leading-6 text-gray-700">
+            <p className="mt-1 text-sm leading-6 text-white">
               Veuillez repondre à ces questions !
             </p>
 
@@ -31,7 +31,7 @@ export default function Formulaire() {
               <div className="sm:col-span-3">
                 <label
                   htmlFor="first-name"
-                  className="block text-sm font-medium leading-6 text-gray-900">
+                  className="block text-sm font-medium leading-6 text-white">
                   Prenom
                 </label>
                 <div className="mt-2">
@@ -48,7 +48,7 @@ export default function Formulaire() {
               <div className="sm:col-span-3">
                 <label
                   htmlFor="last-name"
-                  className="block text-sm font-medium leading-6 text-gray-900">
+                  className="block text-sm font-medium leading-6 text-white">
                   Nom
                 </label>
                 <div className="mt-2">
@@ -66,7 +66,7 @@ export default function Formulaire() {
               <div className="sm:col-span-3">
                 <label
                   htmlFor="email"
-                  className="block text-sm font-medium leading-6 text-gray-900">
+                  className="block text-sm font-medium leading-6 text-white">
                   Email 
                 </label>
                 <div className="mt-2">
@@ -83,7 +83,7 @@ export default function Formulaire() {
               <div className="sm:col-span-3">
                 <label
                   htmlFor="last-name"
-                  className="block text-sm font-medium leading-6 text-gray-900">
+                  className="block text-sm font-medium leading-6 text-white">
                   Telephone
                 </label>
                 <div className="mt-2">
@@ -100,7 +100,7 @@ export default function Formulaire() {
               <div className="sm:col-span-3">
                 <label
                   htmlFor="country"
-                  className="block text-sm font-medium leading-6 text-gray-900">
+                  className="block text-sm font-medium leading-6 text-white">
                   Veuiller choisir votre candidat !!
                 </label>
                 <div className="mt-2">
@@ -137,7 +137,7 @@ export default function Formulaire() {
               <div className="col-span-full">
                 <label
                   htmlFor="street-address"
-                  className="block text-sm font-medium leading-6 text-gray-900">
+                  className="block text-sm font-medium leading-6 text-white">
                   Pourquoi vous avez choisi ce Candidat ?
                 </label>
                 <div className="mt-2">
