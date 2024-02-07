@@ -7,8 +7,9 @@ import Welcome from './Compoents/Welcome';
 // import Footers from './pages/Footers';
 import Login from './LoginSignup/Login';
 import Signup from './LoginSignup/Signup';
-import Dashboard from './Dashboard'
-import Formulaire from './sondage/Formulaire'
+import Formulaire from './sondage/Formulaire';
+// import { Form } from 'react-hook-form';
+import Dashboard from './Dashboard';
 
 
 const App = () => {

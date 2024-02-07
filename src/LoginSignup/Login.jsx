@@ -38,11 +38,11 @@ export default function Login() {
 
         <div className="inputs">
           <div className="input">
-            <input type="email" name="email" placeholder="E-mail" onChange={handleChange} />
+            <input type="email" name="email" placeholder="E-mail" required onChange={handleChange} />
           </div>
 
           <div className="input">
-            <input type="password" name="password" placeholder="Password" onChange={handleChange} />
+            <input type="password" name="password" placeholder="Password" required onChange={handleChange} />
           </div>
         </div>
       </div>
@@ -52,9 +52,10 @@ export default function Login() {
         {/* Lien ou bouton pour naviguer vers la page d'inscription */}
         
       </div>
-
-      <p className='textes'>If you don't have an account, please register</p>
+       <div className='signup-links'>
+      <p className='textes'>If you don't have an account ?</p>
         <Link to="/Signup" className="signup-link">Sign Up</Link>
+        </div>
     </div>
   );
 }

@@ -51,9 +51,10 @@ function Dashboard() {
                         {/*  <!-- Sidebar - Brand --> */}
                         <a className="sidebar-brand d-flex align-items-center justify-content-center" href="#">
                             <div className="sidebar-brand-icon rotate-n-15">
-                                <i className="fas fa-laugh-wink"></i>
+                                {/* <i className="fas fa-laugh-wink"></i> */}
                             </div>
-                            <div className="sidebar-brand-text mx-3 text-white">RDXFORM</div>
+                            <div className="logos sidebar-brand-text  text-white">RxDForm</div>
+                           
                             <div className="text-center d-none d-md-inline">
                             <button className="rounded-circle border-0" id="sidebarToggle" onClick={changeStyle}></button>
                         </div>
@@ -77,7 +78,7 @@ function Dashboard() {
                         <li className="nav-item">
                             <a className="nav-link " href="#">
                                 <i className="fas fa-fw fa-chart-area fs-6 text-white"></i>
-                                <span className='fw-bold text-white fs-6'>Voir Sondage</span></a>
+                                <span className='fw-bold text-white fs-6'>Mes Sondages</span></a>
                         </li>
 
                         <li className="nav-item ">
@@ -145,7 +146,7 @@ function Dashboard() {
                                 <div className="d-sm-flex align-items-center justify-content-between mb-4">
                                     <h1 className="h3 mb-0 ">Tableaux de Bord</h1>
                 
-                                    <Link to="/sondage" className="btn btn-primary">
+                                    <Link to="/sondage" className="btn-btn">
                                      <i className="fa-solid fa-plus m-2 fw-bold"></i> Créer un sondage
                                     </Link>
                                      
