@@ -60,3 +60,9 @@
     background-color: #3a83ac;
     color: whitesmoke;
 }
+
+
+.navbar-nav  {
+    background: linear-gradient(#d29dd991, #d29dd991)!important;
+
+}
