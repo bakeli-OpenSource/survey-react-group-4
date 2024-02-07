@@ -28,6 +28,7 @@ const {
     axios.post('http://localhost:8000/api/form', data)
       .then(response => {
         console.log(response.data);
+        window.location.href = '/Dashboard';
       })
       .catch(error => {
         console.error(error.response.data);
@@ -43,7 +44,7 @@ const {
       <div className="container1 justify-center px-5">
         <div className="space-y-12 ">
           <div className="border-b border-gray-900/10 pb-12 mt-2">
-            <h1 className="text-base text-center fw-bold fs-5 leading-9 text-gray-900">
+            <h1 className="text-base text-center fw-bold fs-5 leading-9 text-white">
               Sondage sur l'élection presidentielle de 2024
             </h1>
             <p className="mt-1 text-sm leading-6 text-white">
@@ -54,7 +55,7 @@ const {
               <div className="sm:col-span-3">
                 <label
                   htmlFor="prenom"
-                  className="block text-sm font-medium leading-6 text-gray-900">
+                  className="block text-sm font-medium leading-6 text-white">
                   Prenom
                 </label>
                 <div className="mt-2">
@@ -72,7 +73,7 @@ const {
               <div className="sm:col-span-3">
                 <label
                   htmlFor="nom"
-                  className="block text-sm font-medium leading-6 text-gray-900">
+                  className="block text-sm font-medium leading-6 text-white">
                   Nom
                 </label>
                 <div className="mt-2">
@@ -109,7 +110,7 @@ const {
               <div className="sm:col-span-3">
                 <label
                   htmlFor="tel"
-                  className="block text-sm font-medium leading-6 text-gray-900">
+                  className="block text-sm font-medium leading-6 text-white">
                   Telephone
                 </label>
                 <div className="mt-2">
@@ -127,7 +128,7 @@ const {
               <div className="sm:col-span-3">
                 <label
                   htmlFor="choix"
-                  className="block text-sm font-medium leading-6 text-gray-900">
+                  className="block text-sm font-medium leading-6 text-white">
                   Veuiller choisir votre candidat !!
                 </label>
                 <div className="mt-2">
@@ -165,7 +166,7 @@ const {
               <div className="col-span-full">
                 <label
                   htmlFor="pourquoi"
-                  className="block text-sm font-medium leading-6 text-gray-900">
+                  className="block text-sm font-medium leading-6 text-white">
                   Pourquoi vous avez choisi ce Candidat ?
                 </label>
                 <div className="mt-2">
@@ -195,7 +196,7 @@ const {
             </button>
             <button
               type="submit"
-              className="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600" 
+              className=" buuton2 rounded-md  px-3 py-2 text-sm font-semibold text-white shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600" 
               onClick={handleSubmitForm}>
                
               Envoyer

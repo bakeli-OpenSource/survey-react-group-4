@@ -177,5 +177,17 @@ nav ul li a:hover {
 }
 
 
+.buuton2{
+  background-color: #3a83ac;
+  border: 1px solid whitesmoke;
+}
+
+.buuton2:hover{
+  background-color: whitesmoke;
+  border: 1px solid  #3a83ac;
+  color: #3a83ac !important;
+}
+
+
 
 

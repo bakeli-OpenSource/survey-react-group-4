@@ -38,9 +38,9 @@
 
 .logos {
     color: whitesmoke;
-    border-bottom: 2px solid whitesmoke;
-    border-top: 2px solid whitesmoke;
-    border-left: 1px solid whitesmoke;
+    border-bottom: 2px solid whitesmoke !important;
+    border-top: 2px solid whitesmoke !important;
+    border-left: 1px solid whitesmoke !important;
     padding: 3px;
     font-size: 15px;
     position: relative;
@@ -63,6 +63,10 @@
 
 
 .navbar-nav  {
-    background: linear-gradient(#d29dd991, #d29dd991)!important;
+    background:  #3a83ac!important;
 
 }
+.btn-2{
+    background-color: #3a83ac!important;
+}
+
