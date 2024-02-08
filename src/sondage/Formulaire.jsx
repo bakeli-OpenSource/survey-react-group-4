@@ -28,7 +28,7 @@ const {
   const handleSubmitForm = (e) => {
     e.preventDefault();
     const data = { nom,prenom, email, tel, choix, pourquoi };
-    axios.post('http://localhost:8000/api/form', data)
+    axios.post('https://api-survey-4.fewnu.app/api/form', data)
       .then(response => {
         console.log(response.data);
         window.location.href = '/Dashboard';

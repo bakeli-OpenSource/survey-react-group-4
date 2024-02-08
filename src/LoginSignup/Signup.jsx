@@ -18,7 +18,7 @@ export default function Register() {
 
   const handleSignup = async () => {
     try {
-      const response = await axios.post('http://localhost:8000/api/Signup', {
+      const response = await axios.post('https://api-survey-4.fewnu.app/api/Signup', {
         name: formData.name,
         email: formData.email,
         password: formData.password
