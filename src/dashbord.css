@@ -33,20 +33,31 @@
 .toggled1 {
     width: 0!important;
     overflow: hidden;
+    
 }
 
-/* .sidebard{
-    background: linear-gradient(#d29dd991, #aa7fc5)!important;
-    width: 200px;
-   
+.logos {
+    color: whitesmoke;
+    border-bottom: 2px solid whitesmoke !important;
+    border-top: 2px solid whitesmoke !important;
+    border-left: 1px solid whitesmoke !important;
+    padding: 3px;
+    font-size: 15px;
+    position: relative;
+    right: 70px;
+    width: 20px;
+}
+    
 
-} */
+.navbar-nav{
+    background-color:  #3a83ac;
+}
 
-/* #page-top {
-    background: linear-gradient(#d29dd991, #aa7fc5)!important;
-} */
-
-.navbar-nav  {
-    background: linear-gradient(#d29dd991, #d29dd991)!important;
-
+.user{
+    background-color: white !important;
+    
+}
+.btn2{
+    background-color: #3a83ac;
+    color: whitesmoke;
 }

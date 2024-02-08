@@ -46,17 +46,17 @@ const {
       <div className="container1 justify-center px-5">
         <div className="space-y-12 ">
           <div className="border-b border-gray-900/10 pb-12 mt-2">
-            <h1 className="text-base text-center fw-bold fs-5 leading-9 text-gray-900">
+            <h1 className="text-base text-center fw-bold  leading-9 text-gray-900">
               Sondage sur l'élection presidentielle de 2024
             </h1>
-            <p className="mt-1 text-sm leading-6 text-gray-700">
+            <p className="mt-1 text-sm leading-6 text-white">
               Veuillez repondre à ces questions !
             </p>
 
             <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
               <div className="sm:col-span-3">
                 <label
-                  htmlFor="prenom"
+                  htmlFor="first-name"
                   className="block text-sm font-medium leading-6 text-gray-900">
                   Prenom
                 </label>
@@ -74,7 +74,7 @@ const {
 
               <div className="sm:col-span-3">
                 <label
-                  htmlFor="nom"
+                  htmlFor="last-name"
                   className="block text-sm font-medium leading-6 text-gray-900">
                   Nom
                 </label>
@@ -94,7 +94,7 @@ const {
               <div className="sm:col-span-3">
                 <label
                   htmlFor="email"
-                  className="block text-sm font-medium leading-6 text-gray-900">
+                  className="block text-sm font-medium leading-6 text-white">
                   Email 
                 </label>
                 <div className="mt-2">
@@ -111,7 +111,7 @@ const {
 
               <div className="sm:col-span-3">
                 <label
-                  htmlFor="tel"
+                  htmlFor="last-name"
                   className="block text-sm font-medium leading-6 text-gray-900">
                   Telephone
                 </label>
@@ -129,7 +129,7 @@ const {
 
               <div className="sm:col-span-3">
                 <label
-                  htmlFor="choix"
+                  htmlFor="country"
                   className="block text-sm font-medium leading-6 text-gray-900">
                   Veuiller choisir votre candidat !!
                 </label>
@@ -167,7 +167,7 @@ const {
 
               <div className="col-span-full">
                 <label
-                  htmlFor="pourquoi"
+                  htmlFor="street-address"
                   className="block text-sm font-medium leading-6 text-gray-900">
                   Pourquoi vous avez choisi ce Candidat ?
                 </label>

@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import './dashbord.css';
 import { Link } from 'react-router-dom';
+import Liste_sondage from './sondage/Liste_sondage';
 // import { navigate } from 'react-router-dom';
 
 
@@ -53,7 +54,7 @@ function Dashboard() {
                             <div className="sidebar-brand-icon rotate-n-15">
                                 <i className="fas fa-laugh-wink"></i>
                             </div>
-                            <div className="sidebar-brand-text mx-3 text-white">RDXFORM</div>
+                            <div className=" logs sidebar-brand-text mx-3 text-white">RDXFORM</div>
                             <div className="text-center d-none d-md-inline">
                             <button className="rounded-circle border-0" id="sidebarToggle" onClick={changeStyle}></button>
                         </div>
@@ -154,10 +155,7 @@ function Dashboard() {
                           <hr/>
                           <p>
                             
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum viverra hendrerit lorem, eget efficitur risus euismod ac. Nam maximus sit amet leo interdum faucibus. Phasellus dictum, enim in tincidunt commodo, mi nunc lacinia sapien, eget placerat ligula dolor in metus. Vivamus ac ante in lorem tristique luctus. Duis tincidunt augue vitae augue accumsan, a dictum enim egestas. Sed ut massa erat. Duis mattis sollicitudin neque non tempus. Nulla ornare maximus posuere.
-
-Pellentesque suscipit tristique semper. Nulla quis sagittis odio. Nullam eu justo quis lectus condimentum volutpat sed dignissim justo. Cras porttitor maximus felis, ac faucibus nulla semper eu. Suspendisse vel arcu nibh. Cras tincidunt ante quis hendrerit lobortis. Phasellus quam libero, lacinia eget justo eu, aliquam egestas nibh. Morbi ac tortor ac libero ultrices condimentum. Nunc et nibh justo. Nulla tristique viverra neque, id blandit dui iaculis ac. Nunc mauris risus, elementum a elit sit amet, posuere imperdiet leo. Morbi elementum turpis eget facilisis aliquet. Duis eleifend tincidunt quam, id suscipit dui fringilla vitae.
-
+                          <Liste_sondage />
                           </p>
                      
 
@@ -177,6 +175,7 @@ Pellentesque suscipit tristique semper. Nulla quis sagittis odio. Nullam eu just
 
              
             </body>
+           
         </div>
     )
 }

@@ -18,12 +18,13 @@ import About from '../pages/About'
 
 
 
+
 export default function Welcome() {
     const navigate = useNavigate()
   return (
    <div className='blocs'>
 
-     <div className='parent'>
+      <div className='parent'>
 
       <div className='logo'>RxDForm</div>
 
@@ -54,6 +55,7 @@ export default function Welcome() {
    </div>
    <About />
    <Footers />
+   
     </div>
   
 

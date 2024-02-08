@@ -9,7 +9,10 @@ import Login from './LoginSignup/Login';
 import Signup from './LoginSignup/Signup';
 import Formulaire from './sondage/Formulaire';
 import Dashboard from './Dashboard';
+import Liste_sondage from './sondage/Liste_sondage';
 import { Form } from 'react-hook-form';
+
+
 
 
 const App = () => {
@@ -20,11 +23,15 @@ const App = () => {
         
       <Routes>
         <Route path="/" element={< Welcome />} />
+       
+        <Route path="sondage" element={< Formulaire />} />
+        {/* <Route path="signes" element={< Footers />} /> */}
         <Route path="Login" element={< Login />} />
         <Route path="Signup" element={< Signup />} />
-        <Route path="sondage" element={< Formulaire />} />
-        <Route path="Dashboard" element={< Dashboard />} />
-        {/* <Route path="signes" element={< Footers />} /> */}
+      
+        <Route path="Dashboard" element={<Dashboard/>} />
+         <Route path="liste_sondage" element={<Liste_sondage/>} /> 
+
         
       </Routes>
     </Router>

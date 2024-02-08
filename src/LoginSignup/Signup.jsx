@@ -70,7 +70,14 @@ export default function Register() {
 
       <div className="submit-container">
         <div className="submit" onClick={handleSignup}>Sign Up</div>
+
       </div>
+
+      <div className='login-links'>
+      <p > You don't have an account ?</p>
+        <Link to="/Login" className="signup-link">Login</Link>
+
+        </div>
     </div>
   );
 }
