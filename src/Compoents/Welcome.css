@@ -6,7 +6,7 @@
   margin-bottom: 70px;
 }
 .blocs{
-  background: linear-gradient(#A200B7, #42006C);
+  background: #3983ad;
   height: 582px;
   margin-bottom: 100px;
 }
@@ -15,7 +15,7 @@
  display: grid;
  grid-template-columns: 50% 50%;
  height: 580px;
-  background-color: linear-gradient(#A200B7, #42006C);
+  background-color: #3983ad;
 
 }
 
@@ -42,7 +42,7 @@
 
 
 .bloc1 button{
-    background-color: #ceb8f3;
+    background-color: white;
     width: 170px;
     margin-top: 30px;
     height: 60px;
@@ -58,7 +58,7 @@
   display: flex;
   justify-content: center;
   gap: 500px;
-  background: linear-gradient(#A200B7, #42006C);
+  background: #3983ad;
 }
 
 .navbar ul{
@@ -125,7 +125,7 @@ nav ul li a:hover {
   .bolocs{
     display: block;
 
-     background-color: linear-gradient(#A200B7, #42006C);
+     background-color: #3983ad;
    
    }
 

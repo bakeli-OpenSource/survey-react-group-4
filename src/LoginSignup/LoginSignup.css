@@ -10,7 +10,7 @@
 .container{
     display: flex;
     flex-direction: column;
-    background: linear-gradient(#A200B7, #42006C);
+    background: #3983ad;
     width: 450px;
     height: 570px;
     justify-content: center;
@@ -27,7 +27,7 @@
 }
 .container1{
 
-    background: linear-gradient(#d29dd991, #aa7fc5);
+    background: #3983ad;
     width: 50%;
     padding: 5px;
     justify-content: center;
@@ -140,7 +140,7 @@ body{
 .submit{
     border: 1px solid whitesmoke;
     border-radius: 25px;
-     background-color: #ceb8f3;
+     background-color: #3983ad;
      width: 340px;
      height: 50px;
      border-radius: 25px;
@@ -157,7 +157,7 @@ body{
 
 .submit2{
      border: 1px solid whitesmoke;
-     background-color:#ceb8f3;
+     background-color:#3983ad;
      width: 340px;
      height: 50px;
      border-radius: 25px;
@@ -201,7 +201,7 @@ body{
    bottom: 40px;
    left: 150px;
    color: black;
-   border: 1px solid #ceb8f3;
+   border: 1px solid #3983ad;
    background-color: whitesmoke;
    width: 130px;
    height: 50px;
@@ -214,21 +214,21 @@ body{
 
     color: whitesmoke;
    border: 1px solid #ceb8f3;
-   background:linear-gradient(#A200B7, #42006C);
+   background:#3983ad;
 }
 
 .submit:hover{
 
     color: whitesmoke;
    border: 1px solid #ceb8f3;
-   background:linear-gradient(#A200B7, #42006C);
+   background:#3983ad;
 }
 
 .submit2:hover{
 
     color: whitesmoke;
    border: 1px solid #ceb8f3;
-   background:linear-gradient(#A200B7, #42006C);
+   background:#3983ad;
 }
 
 

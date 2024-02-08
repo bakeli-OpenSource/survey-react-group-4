@@ -84,7 +84,7 @@ function Dashboard() {
                         {/*  <!-- Nav Item - Dashboard --> */}
                         <li className="nav-item active">
                             <a className="nav-link" href="index.html">
-                                <i className="fas fa-fw fa-tachometer-alt"></i>
+                                <i className="fas fa-fw fa-tachometer-alt text-white"></i>
                                 <span className='text-white'>Dashboard</span></a>
                         </li>
 
@@ -95,13 +95,13 @@ function Dashboard() {
                  
                         <li className="nav-item">
                             <a className="nav-link" href="#">
-                                <i className="fas fa-fw fa-chart-area"></i>
+                                <i className="fas fa-fw fa-chart-area text-white"></i>
                                 <span className='fw-bold text-white'>Mes Sondage</span></a>
                         </li>
 
                         <li className="nav-item">
                             <a className="nav-link" href="tables.html">
-                                <i className="fas fa-fw fa-table"></i>
+                                <i className="fas fa-fw fa-table text-white"></i>
                                 <span className='fw-bold text-white'>Paramétre</span></a>
                         </li>
 

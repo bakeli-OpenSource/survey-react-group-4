@@ -47,19 +47,10 @@ export default function LoginSignup() {
 
   </div>
 </div>
-
-
-
 <div className="submit-container">
   <div className={action== "Login"?"submit gray":"submit"} onClick={()=>{setAction("Sign Up")}}>Sign Up</div>
-  {/* <div className={action === "Login" ? "submit2 gray" : "submit2"} onClick={handleLogin}>Login</div>
-
-  <div className={action === "Sign Up" ? "submit gray" : "submit"} onClick={handleSignup}>Sign Up</div> */}
-
   <div className={action== "Sign Up"?"submit2 gray":"submit2"} onClick={()=>{setAction("Login")}}>Login</div>
 </div>
-
-
     </div>
 
 
