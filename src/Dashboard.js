@@ -1,5 +1,4 @@
 
-
 import React, { useEffect, useState } from 'react';
 import './dashbord.css';
 import { Link } from 'react-router-dom';
@@ -30,32 +29,14 @@ function Dashboard() {
 
 
 
+//     const [username, setUsername] = useState('');
 
-
-
-
-// function Dashboard() {
-//     const [style, setStyle] = useState("navbar-nav  sidebar sidebar-dark accordion");
-
-//     const changeStyle = () => {
-//         if (style == "navbar-nav  sidebar sidebar-dark accordion")
-//         {
-//             setStyle("navbar-nav  sidebar sidebar-dark accordion toggled");
-//         }
-//         else{
-//             setStyle("navbar-nav  sidebar sidebar-dark accordion")
-//         }
-//     };
-//     const changeStyle1 = () => {
-//         if (style == "navbar-nav  sidebar sidebar-dark accordion")
-//         {
-//             setStyle("navbar-nav  sidebar sidebar-dark accordion toggled1");
-//         }
-//         else{
-//             setStyle("navbar-nav  sidebar sidebar-dark accordion")
-//         }
-//     };
-
+// useEffect(() => {
+//     // Récupérer le nom de l'utilisateur depuis le stockage local ou l'état global lors du chargement du tableau de bord
+//     const storedUsername = localStorage.getItem('username'); // Si vous avez stocké le nom d'utilisateur dans le localStorage
+//     // const storedUsername = globalState.username; // Si vous utilisez un gestionnaire d'état global comme Redux
+//     setUsername(storedUsername || ''); // Mettre à jour l'état du nom de l'utilisateur
+// }, []);
 
     return (
         <div>
@@ -64,15 +45,13 @@ function Dashboard() {
                 {/*  <!-- Page Wrapper --> */}
                 <div id="wrapper">
 
-                    {/*  <!-- Sidebar --> */}
-                    <ul className={style} id="accordionSidebar">
+                    {/*  <!-- Sideba --> */}
+                    <ul className={style}id="accordionSidebar">
 
                         {/*  <!-- Sidebar - Brand --> */}
                         <a className="sidebar-brand d-flex align-items-center justify-content-center" href="#">
-                            <div className="sidebar-brand-icon rotate-n-15">
-                                {/* <i className="fas fa-laugh-wink"></i> */}
-                            </div>
-                            <div className="logos sidebar-brand-text mx-3">RDXFORM</div>
+                           
+                            <div className="sidebar-brand-text mx-3 text-white">RDXFORM</div>
                             <div className="text-center d-none d-md-inline">
                             <button className="rounded-circle border-0" id="sidebarToggle" onClick={changeStyle}></button>
                         </div>
@@ -83,9 +62,9 @@ function Dashboard() {
 
                         {/*  <!-- Nav Item - Dashboard --> */}
                         <li className="nav-item active">
-                            <a className="nav-link" href="index.html">
-                                <i className="fas fa-fw fa-tachometer-alt text-white"></i>
-                                <span className='text-white'>Dashboard</span></a>
+                            <a className="nav-link text-white fs-6" href="">
+                                <i className="fas fa-fw fa-tachometer-alt fs-6 text-white"></i>
+                                <span className='fs-6'>Dashboard</span></a>
                         </li>
 
                       
@@ -94,15 +73,15 @@ function Dashboard() {
     
                  
                         <li className="nav-item">
-                            <a className="nav-link" href="#">
-                                <i className="fas fa-fw fa-chart-area text-white"></i>
-                                <span className='fw-bold text-white'>Mes Sondage</span></a>
+                            <a className="nav-link " href="#">
+                                <i className="fas fa-fw fa-chart-area fs-6 text-white"></i>
+                                <span className='fw-bold text-white fs-6'>Voir Sondage</span></a>
                         </li>
 
-                        <li className="nav-item">
-                            <a className="nav-link" href="tables.html">
-                                <i className="fas fa-fw fa-table text-white"></i>
-                                <span className='fw-bold text-white'>Paramétre</span></a>
+                        <li className="nav-item ">
+                            <a className="nav-link" href="#">
+                                <i className="fas fa-fw fa-table text-white fs-6"></i>
+                                <span className='fw-bold text-white fw-bold fs-6'>Setting</span></a>
                         </li>
 
                         <hr className="sidebar-divider d-none d-md-block" />
@@ -110,7 +89,7 @@ function Dashboard() {
                         </ul>
 
 
-                    <div id="content-wrapper" className="d-flex flex-column">
+                    <div id="content-wrapper" className="d-flex flex-column ">
 
                         {/*  <!-- Main Content --> */}
                         <div id="content">
@@ -120,7 +99,7 @@ function Dashboard() {
 
                                 {/*  <!-- Sidebar Toggle (Topbar) --> */}
                                 <button id="sidebarToggleTop" className="btn btn-link d-md-none rounded-circle mr-3" onClick={changeStyle1}>
-                                    <i className="fa fa-bars"></i>
+                                    <i className="fa fa-bars "></i>
                                 </button>
 
 
@@ -132,10 +111,10 @@ function Dashboard() {
 
 
                                     {/* <!-- Nav Item - User Information --> */}
-                                    <li className=" user nav-item dropdown no-arrow">
-                                        <a className="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
+                                    <li className="nav-item dropdown no-arrow">
+                                        <a className="nav-link dropdown-toggle bg-white" href="#" id="userDropdown" role="button"
                                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            <span className="mr-2 d-none d-lg-inline text-gray-600 small">Ndiande </span>
+                                            <span className="mr-2 d-none d-lg-inline text-gray-600 small">ndiande </span>
                                             <img className="img-profile rounded-circle"
                                                 src="img/undraw_profile.svg" />
                                         </a>
@@ -164,10 +143,10 @@ function Dashboard() {
                                 <div className="d-sm-flex align-items-center justify-content-between mb-4">
                                     <h1 className="h3 mb-0 ">Tableaux de Bord</h1>
                 
-                                    <Link to="/sondage" className="btn btn2">
+                                    <Link to="/sondage" className="btn btn-primary">
                                      <i className="fa-solid fa-plus m-2 fw-bold"></i> Créer un sondage
-                                     </Link>
-                                    
+                                    </Link>
+                                     
                                 </div>
 
                           <hr/>
@@ -199,6 +178,5 @@ Pellentesque suscipit tristique semper. Nulla quis sagittis odio. Nullam eu just
         </div>
     )
 }
-
 
 export default Dashboard;   

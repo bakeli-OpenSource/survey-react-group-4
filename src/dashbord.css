@@ -36,7 +36,7 @@
     
 }
 
-.logos {
+.sidebar-brand-text{
     color: whitesmoke;
     border-bottom: 2px solid whitesmoke;
     border-top: 2px solid whitesmoke;
@@ -63,7 +63,7 @@
 
 
 .navbar-nav  {
-    background: #3983ad!important;
+    background:#3983ad ;
 
 }
 
@@ -74,8 +74,10 @@
   height: 40px;
   border-radius: 10;
 }
-
-.logos {
+.btn-primary{
+    background: #3983ad!important;
+}
+/* .logos {
     color: whitesmoke;
     border-left: 1px solid whitesmoke;
     border-top: 2px solid whitesmoke;
@@ -86,4 +88,4 @@
     margin-right: 130px;
 
    
-}
+} */
