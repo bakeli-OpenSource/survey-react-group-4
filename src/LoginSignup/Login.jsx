@@ -10,7 +10,7 @@ export default function Login() {
 
   const handleLogin = async () => {
     try {
-      const response = await axios.post('http://localhost:8000/api/Login', {
+      const response = await axios.post('http://localhost:8000/api/Login' ,{
         email: formData.email,
         password: formData.password
       });

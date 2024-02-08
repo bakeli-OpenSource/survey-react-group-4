@@ -30,7 +30,7 @@ const {
     axios.post('http://localhost:8000/api/form', data)
       .then(response => {
         console.log(response.data);
-        reset(); 
+        window.location.href='./Dashboard'
       })
       .catch(error => {
         console.error(error.response.data);

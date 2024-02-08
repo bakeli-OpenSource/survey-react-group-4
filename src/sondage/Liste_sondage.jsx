@@ -18,8 +18,6 @@ export default function Liste_sondage() {
     getProduct();
   }, []);
 
-  
-
   return (
     <React.Fragment>
       <div className="container3 container_overflow">
@@ -37,7 +35,8 @@ export default function Liste_sondage() {
                   <th scope="col">Telephone</th>
                   <th scope="col">Candidat</th>
                   <th scope="col">Pourquoi</th>
-                  <th scope="col" width="200">Action</th>
+                  
+                  
                 </tr>
               </thead>
               <tbody>
