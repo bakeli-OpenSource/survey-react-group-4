@@ -10,6 +10,8 @@ import Signup from './LoginSignup/Signup';
 import Formulaire from './sondage/Formulaire';
 import Dashboard from './Dashboard';
 import { Form } from 'react-hook-form';
+import ListeSondage from './sondage/ListeSondage';
+
 
 
 
@@ -30,6 +32,7 @@ const App = () => {
         <Route path="signes" element={< Footers />} /> 
         <Route path="Dashboard" element={<Dashboard/>} />
         <Route path="sondage" element={< Formulaire />} />
+        <Route path="liste" element={< ListeSondage />} />
 
 
         

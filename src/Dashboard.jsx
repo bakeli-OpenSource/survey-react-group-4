@@ -77,7 +77,7 @@ function Dashboard() {
                         <li className="nav-item">
                             <a className="nav-link " href="#">
                                 <i className="fas fa-fw fa-chart-area fs-6 text-white"></i>
-                                <span className='fw-bold text-white fs-6'>Voir Sondage</span></a>
+                                <span className='fw-bold text-white fs-6'>Mes Sondages</span></a>
                         </li>
 
                         <li className="nav-item ">
