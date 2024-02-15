@@ -11,6 +11,7 @@ import Formulaire from './sondage/Formulaire';
 import Dashboard from './Dashboard';
 import { Form } from 'react-hook-form';
 import ListeSondage from './sondage/ListeSondage';
+import User from './User';
 
 
 
@@ -33,6 +34,8 @@ const App = () => {
         <Route path="Dashboard" element={<Dashboard/>} />
         <Route path="sondage" element={< Formulaire />} />
         <Route path="liste" element={< ListeSondage />} />
+        <Route path="user" element={< User />} />
+
 
 
         

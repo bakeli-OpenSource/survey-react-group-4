@@ -2,7 +2,9 @@
 import React, { useEffect, useState } from 'react';
 import './dashbord.css';
 import { Link } from 'react-router-dom';
+import User from './User';
 // import { navigate } from 'react-router-dom';
+
 
 
 function Dashboard() {
@@ -157,7 +159,7 @@ function Dashboard() {
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum viverra hendrerit lorem, eget efficitur risus euismod ac. Nam maximus sit amet leo interdum faucibus. Phasellus dictum, enim in tincidunt commodo, mi nunc lacinia sapien, eget placerat ligula dolor in metus. Vivamus ac ante in lorem tristique luctus. Duis tincidunt augue vitae augue accumsan, a dictum enim egestas. Sed ut massa erat. Duis mattis sollicitudin neque non tempus. Nulla ornare maximus posuere.
 
 Pellentesque suscipit tristique semper. Nulla quis sagittis odio. Nullam eu justo quis lectus condimentum volutpat sed dignissim justo. Cras porttitor maximus felis, ac faucibus nulla semper eu. Suspendisse vel arcu nibh. Cras tincidunt ante quis hendrerit lobortis. Phasellus quam libero, lacinia eget justo eu, aliquam egestas nibh. Morbi ac tortor ac libero ultrices condimentum. Nunc et nibh justo. Nulla tristique viverra neque, id blandit dui iaculis ac. Nunc mauris risus, elementum a elit sit amet, posuere imperdiet leo. Morbi elementum turpis eget facilisis aliquet. Duis eleifend tincidunt quam, id suscipit dui fringilla vitae.
-
+              < User />
                           </p>
                      
 

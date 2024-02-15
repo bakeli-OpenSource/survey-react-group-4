@@ -13,7 +13,7 @@ const {
   } = useForm();
   const onSubmit = (data) => console.log(data);
   console.log(errors);
-
+  
 
   const [ prenom, setPrenom] = useState('');
   const [nom, setNom] = useState('');
@@ -28,6 +28,7 @@ const {
     axios.post('http://localhost:8000/api/form', data)
       .then(response => {
         console.log(response.data);
+        alert(' votre sondage  est creer avec succe');
         window.location.href = '/Dashboard';
       })
       .catch(error => {
